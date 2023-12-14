@@ -4,9 +4,10 @@
 
 > nls: National Language Support
 
-This package is a webpack plugin for using zh-CN in `monaco-editor@0.30.1`.
+This package is designed for utilizing zh-CN in `monaco-editor@0.30.1`.
 
-The `/i18n/dt-zh-hans.json` is condensed from [vscode-loc](https://github.com/microsoft/vscode-loc/blob/release/1.63.3/i18n/vscode-language-pack-zh-hans/translations/main.i18n.json) and it only applicable to DTStack. Provider the `nls.js` to replace the `monaco-editor/esm/vs/nls.js`.
+The Chinese localization JSON file `/i18n/dt-zh-hans.json` is a simplified version of [vscode-loc](https://github.com/microsoft/vscode-loc/blob/release/1.63.3/i18n/vscode-language-pack-zh-hans/translations/main.i18n.json)  and This is only relevant to DTStack and it supply the `nls.js` to replace the `monaco-editor/esm/vs/nls.js`.
+
 
 ## Install
 
@@ -46,6 +47,8 @@ module.exports = {
 
 ## Notice
 
-Our monaco-editor version: `0.30.1` and we will use `0.31.1` in the feature.
+Our monaco-editor version: `0.30.1` and we will use `0.31.1` in the furture.
 
-If you need complete zh-CN or other languages, you can fork this repository, find your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move to `/i18n/***.json`, and you need to modify the code with json file path in `nls.js`.
+If you need the support zh-CN or other languages, you can fork this repository, locate your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move it to `/i18n/***.json`. Additionally, you will need to modify the code with the json file path in `nls.js`.
+
+<!-- If you need complete zh-CN or other languages, you can fork this repository, find your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move to `/i18n/***.json`, and you need to modify the code with json file path in `nls.js`. -->
