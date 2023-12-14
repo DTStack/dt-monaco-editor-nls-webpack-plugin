@@ -25,6 +25,7 @@
             "startFindWithSelectionAction": "查找选定内容",
             "startReplace": "替换"
         },
+        
         "vs/editor/contrib/find/findWidget": {
             "ariaSearchNoResult": "为“{1}”找到 {0}",
             "ariaSearchNoResultEmpty": "找到 {0}",
