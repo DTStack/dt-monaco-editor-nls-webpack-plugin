@@ -50,5 +50,3 @@ module.exports = {
 Our monaco-editor version: `0.30.1` and we will use `0.31.1` in the furture.
 
 If you need the support zh-CN or other languages, you can fork this repository, locate your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move it to `/i18n/***.json`. Additionally, you will need to modify the code with the json file path in `nls.js`.
-
-<!-- If you need complete zh-CN or other languages, you can fork this repository, find your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move to `/i18n/***.json`, and you need to modify the code with json file path in `nls.js`. -->
