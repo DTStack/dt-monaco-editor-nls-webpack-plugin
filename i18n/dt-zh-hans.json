@@ -25,7 +25,6 @@
             "startFindWithSelectionAction": "查找选定内容",
             "startReplace": "替换"
         },
-        
         "vs/editor/contrib/find/findWidget": {
             "ariaSearchNoResult": "为“{1}”找到 {0}",
             "ariaSearchNoResultEmpty": "找到 {0}",
@@ -206,7 +205,42 @@
             "gotoLineLabelEmptyWithLimit": "当前行: {0}，字符: {1}。键入要导航到的行号(介于 1 至 {2} 之间)。"
         },
         "vs/editor/contrib/quickAccess/gotoSymbolQuickAccess": {
-            "cannotRunGotoSymbolWithoutSymbolProvider": "活动文本编辑器不提供符号信息。"
+            "_constructor": "构造函数 ({0})",
+            "array": "数组({0})",
+            "boolean": "布尔值({0})",
+            "cannotRunGotoSymbolWithoutEditor": "要转到符号，首先打开具有符号信息的文本编辑器。",
+            "cannotRunGotoSymbolWithoutSymbolProvider": "活动文本编辑器不提供符号信息。",
+            "class": "类({0})",
+            "constant": "常量({0})",
+            "enum": "枚举({0})",
+            "enumMember": "枚举成员({0})",
+            "event": "事件({0})",
+            "field": "字段({0})",
+            "file": "文件({0})",
+            "function": "函数({0})",
+            "interface": "接口({0})",
+            "key": "键({0})",
+            "method": "方法({0})",
+            "modules": "模块({0})",
+            "namespace": "命名空间({0})",
+            "noMatchingSymbolResults": "没有匹配的编辑器符号",
+            "noSymbolResults": "没有编辑器符号",
+            "number": "数字({0})",
+            "object": "对象({0})",
+            "openToBottom": "在底部打开",
+            "openToSide": "在侧边打开",
+            "operator": "运算符({0})",
+            "package": "包({0})",
+            "property": "属性({0})",
+            "string": "字符串({0})",
+            "struct": "结构({0})",
+            "symbols": "符号({0})",
+            "typeParameter": "类型参数({0})",
+            "variable": "变量({0})"
+        },
+        "vs/editor/contrib/format/formatActions": {
+            "formatDocument.label": "格式化文档",
+            "formatSelection.label": "格式化选定内容"
         }
     }
 }
