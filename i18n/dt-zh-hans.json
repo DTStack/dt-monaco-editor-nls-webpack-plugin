@@ -241,6 +241,9 @@
         "vs/editor/contrib/format/formatActions": {
             "formatDocument.label": "格式化文档",
             "formatSelection.label": "格式化选定内容"
+        },
+        "vs/base/browser/ui/inputbox/inputBox": {
+            "history.inputbox.hint": "对于历史记录"
         }
     }
 }
