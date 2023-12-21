@@ -244,6 +244,10 @@
         },
         "vs/base/browser/ui/inputbox/inputBox": {
             "history.inputbox.hint": "对于历史记录"
+        },
+        "vs/platform/quickinput/browser/commandsQuickAccess": {
+            "morecCommands": "其他命令",
+            "recentlyUsed": "最近使用"
         }
     }
 }
