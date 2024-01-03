@@ -248,6 +248,9 @@
         "vs/platform/quickinput/browser/commandsQuickAccess": {
             "morecCommands": "其他命令",
             "recentlyUsed": "最近使用"
+        },
+        "vs/editor/contrib/message/messageController": {
+            "editor.readonly": "无法在只读编辑器中编辑"
         }
     }
 }
