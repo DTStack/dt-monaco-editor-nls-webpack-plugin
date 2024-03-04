@@ -4,7 +4,7 @@
 
 > nls: National Language Support
 
-This package is designed for utilizing zh-CN in `monaco-editor@0.30.1`.
+This package is designed for utilizing zh-CN in `monaco-editor@0.30.1` or `monaco-editor@0.31.1`.
 
 The Chinese localization JSON file `/i18n/dt-zh-hans.json` is a simplified version of [vscode-loc](https://github.com/microsoft/vscode-loc/blob/release/1.63.3/i18n/vscode-language-pack-zh-hans/translations/main.i18n.json)  and This is only relevant to DTStack and it supply the `nls.js` to replace the `monaco-editor/esm/vs/nls.js`.
 
@@ -47,6 +47,6 @@ module.exports = {
 
 ## Notice
 
-Our monaco-editor version: `0.30.1` and we will use `0.31.1` in the furture.
+Our monaco-editor version: `0.30.1` or `0.31.1`.
 
 If you need the support zh-CN or other languages, you can fork this repository, locate your json file in [vscode-loc](https://github.com/microsoft/vscode-loc) and move it to `/i18n/***.json`. Additionally, you will need to modify the code with the json file path in `nls.js`.

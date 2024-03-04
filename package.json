@@ -1,6 +1,6 @@
 {
   "name": "dt-monaco-editor-nls-webpack-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Simplified Chinese Support For Monaco Editor",
   "main": "index.js",
   "author": "DTStack",
@@ -15,7 +15,7 @@
   "homepage": "https://github.com/DTStack/dt-monaco-editor-nls-webpack-plugin#readme",
   "peerDependencies": {
     "webpack": "^5",
-    "monaco-editor": "0.30.1"
+    "monaco-editor": "0.30.1 || 0.31.1"
   },
   "keywords": [
     "monaco",
