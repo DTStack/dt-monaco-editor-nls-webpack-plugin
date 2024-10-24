@@ -1,3 +1,6 @@
+*NOTE* : **Package no longer supported. Please use `monaco-editor-i18n-plugin` to instead.**
+
+
 # dt-monaco-editor-nls-webpack-plugin
 
 <a href="https://www.npmjs.com/package/dt-monaco-editor-nls-webpack-plugin"><img alt="NPM Status" src="https://img.shields.io/npm/v/dt-monaco-editor-nls-webpack-plugin.svg?style=flat"></a>
